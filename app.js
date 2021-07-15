@@ -125,6 +125,6 @@ const reset = function (){
        
         location.reload();
     
-    });
-} 
+    })
+} ;
 
