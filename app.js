@@ -84,6 +84,7 @@ function addPhraseToDisplay(arr){
    
     let button = qwerty.getElementsByTagName('button');
     if (e.target.tagName === 'BUTTON' && button.classList!='chosen') {
+        e.target.classList.add('chosen');
         e.target.disabled = true;
         const selected = checkLetter(e.target.textContent);
         if (selected === null) {
