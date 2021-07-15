@@ -91,7 +91,7 @@ function addPhraseToDisplay(arr){
             let img = document.getElementsByTagName('img');
             
                 img[missed].src = 'images/lostHeart.png';
-                missed+=1
+                missed+=1;
               
         }
         checkWin();
