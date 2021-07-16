@@ -51,6 +51,7 @@ function addPhraseToDisplay(arr){
         ul.appendChild(li);
         if (arr[i] !== ' '){
             li.classList .add('letter');
+            li.style.transition = 'all, 1.2s';
         } else {
             
             li.classList.add('space');
